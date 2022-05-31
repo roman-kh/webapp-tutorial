@@ -2,7 +2,7 @@ import * as React from 'react';
 import ReactDOM from 'react-dom/client';
 
 
-import { App } from './App_05';
+import { App } from './App_06';
 
 
 function render() : void {
