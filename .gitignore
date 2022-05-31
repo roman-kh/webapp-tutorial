@@ -1,0 +1,5 @@
+# Dependency and build directories
+node_modules/
+.webpack/
+out/
+yarn-error.log

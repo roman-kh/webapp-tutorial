@@ -1,0 +1,46 @@
+{
+    "name": "webapp_tutorial",
+    "productName": "Web App Tutorial",
+    "version": "0.1.0",
+    "description": "Tutorial",
+
+    "main": ".webpack/main",
+
+    "scripts": {
+        "start": "webpack serve",
+        "lint": "eslint --ext .ts,.tsx ."
+    },
+
+    "keywords": [],
+    "author": {
+        "name": "Roman Kh",
+        "email": "rhudor@gmail.com"
+    },
+    "private": true,
+    "license": "See in LICENSE",
+
+    "devDependencies": {
+        "@types/node": "^17.0.17",
+        "@types/react": "^18.0.9",
+        "@types/react-dom": "^18.0.5",
+        "@typescript-eslint/eslint-plugin": "^5.26.0",
+        "@typescript-eslint/parser": "^5.26.0",
+        "css-loader": "^6.0.0",
+        "eslint": "^8.16.0",
+        "eslint-plugin-import": "^2.20.0",
+        "fork-ts-checker-webpack-plugin": "^7.2.11",
+        "html-webpack-plugin": "^5.5.0",
+        "node-loader": "^2.0.0",
+        "style-loader": "^3.0.0",
+        "ts-loader": "^9.2.2",
+        "typescript": "^4.0.2",
+        "webpack": "^5.72.1",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.9.0"
+    },
+
+    "dependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    }
+}

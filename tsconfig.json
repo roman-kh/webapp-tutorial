@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "esnext",
+    "lib": ["webworker", "esnext", "dom"],
+    "skipLibCheck": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
